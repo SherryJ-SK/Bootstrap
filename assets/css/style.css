@@ -1,0 +1,105 @@
+/* responsive navbar */
+.nav-brand {
+    margin-left: 120px;
+    font-family: 'Pacifico', cursive; /* <--- google font */
+    color: #00264d;
+}
+.nav-item a {
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.nav-item a:hover {
+    background-color: #c8d9ea;
+    color: #00264d;
+    border-radius: 5px; /* <--- block rounded corners */
+}
+.nav-item a.active {
+    color: #004080;
+}
+
+/* ---- dropdown message---- */
+.dropdown-menu {
+    display: none;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.form-group {
+    padding-right: 20px;
+}
+
+/* ----- wrapper in index ----- */
+.wrapper {
+    border: solid 1px #d0d0e1;
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 60%;
+    padding: 10px 10px 0px 10px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.title {
+    font-size: 28px;
+}
+.sec-para {
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+/* ----- wrap in portfolio ---- */
+.wrapper_1 {
+    border: solid 1px #d0d0e1;
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 60%;
+    height: auto;
+    padding: 10px 10px 0px 10px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img01, .img02, .img03, .img04, .img05 {
+    border-radius: 15px;
+    position: relative;
+    margin:10px;
+}
+
+.wrapper_1 .btn {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+/* ----- footer ----- */
+.copyright {
+    position: fixed;
+    color: #00264d;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 2px;
+    text-align: center;
+    background-color: #9fbfdf;
+    margin-bottom: -0.1px;
+    border-top: solid #e3f2fd 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper_1 {
+        Width: 100%;
+        font-size: 30px;
+    }
+    form {
+        font-size: 25px;
+    }
+    .title {
+        font-display: bold;
+    }
+    .footer {
+        font-size: 18px;;
+    }
+}
